@@ -1,13 +1,143 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Assets/css/style.css">
     <title>tiny shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
+    <link rel="stylesheet" href="Assets/css/style.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 </head>
+
 <body>
+    <header>
+        <nav>
+            <div class="menu">
+                <div class="menu-logo">
+                    <img src="Assets/images/logo.png" alt="logo">
+                </div>
+                <ul>
+                    <li><a href="#" onclick="openNav('shop')">shop</a></li>
+                    <li><a href="#" onclick="openNav('contact')">contact</a></li>
+                    <li><a href="#">register</a></li>
+                </ul>
+            </div>
+            <div class="shop-dropdown mydropdown">
+                <ul><p class="category">category1</p>
+                    <li><a href="#"></a>item1</li>
+                    <li><a href="#"></a>item2</li>
+                    <li><a href="#"></a>item3</li>
+                </ul>
+                <ul><p class="category">category2</p>
+                    <li><a href="#"></a>item1</li>
+                    <li><a href="#"></a>item2</li>
+                    <li><a href="#"></a>item3</li>
+                </ul>
+                <ul><p class="category">category2</p>
+                    <li><a href="#"></a>item1</li>
+                    <li><a href="#"></a>item2</li>
+                    <li><a href="#"></a>item3</li>
+                    <li><a href="#"></a>item3</li>
+                </ul>
+                <ul><p class="category">category2</p>
+                    <li><a href="#"></a>item1</li>
+                    <li><a href="#"></a>item2</li>
+                    <li><a href="#"></a>item3</li>
+                </ul>
+                <ul><p class="category">category3</p>
+                    <li><a href="#"></a>item1</li>
+                    <li><a href="#"></a>item2</li>
+                </ul>
+                <ul><p class="category">category2</p>
+                    <li><a href="#"></a>item1</li>
+                    <li><a href="#"></a>item2</li>
+                    <li><a href="#"></a>item3</li>
+                </ul>
+                <ul><p class="category">category2</p>
+                    <li><a href="#"></a>item1</li>
+                    <li><a href="#"></a>item2</li>
+                    <li><a href="#"></a>item3</li>
+                </ul>
+            </div>
+            <div class="contact-dropdown mydropdown">
+                <ul><p class="category">category1</p>
+                    <li><a href="#"></a>item1</li>
+                    <li><a href="#"></a>item2</li>
+                    <li><a href="#"></a>item3</li>
+                </ul>
+                <ul><p class="category">category2</p>
+                    <li><a href="#"></a>item1</li>
+                    <li><a href="#"></a>item2</li>
+                    <li><a href="#"></a>item3</li>
+                </ul>
+                <ul><p class="category">category2</p>
+                    <li><a href="#"></a>item1</li>
+                    <li><a href="#"></a>item2</li>
+                    <li><a href="#"></a>item3</li>
+                    <li><a href="#"></a>item3</li>
+                </ul>
+                <ul><p class="category">category2</p>
+                    <li><a href="#"></a>item1</li>
+                    <li><a href="#"></a>item2</li>
+                    <li><a href="#"></a>item3</li>
+                </ul>
+                <ul><p class="category">category3</p>
+                    <li><a href="#"></a>item1</li>
+                    <li><a href="#"></a>item2</li>
+                </ul>
+                <ul><p class="category">category2</p>
+                    <li><a href="#"></a>item1</li>
+                    <li><a href="#"></a>item2</li>
+                    <li><a href="#"></a>item3</li>
+                </ul>
+                <ul><p class="category">category2</p>
+                    <li><a href="#"></a>item1</li>
+                    <li><a href="#"></a>item2</li>
+                    <li><a href="#"></a>item3</li>
+                </ul>
+            </div>
+        </nav>
+        <div class="search-box">
+            <div class="search-icon"><i class="bi bi-search"></i></div>
+            <div class="search-text"><input type="text" placeholder="search"></div>
+        </div>
+    </header>
+    <div class="sidebar">
+        <div class="cart-icon"><i class="bi bi-cart2"></i></div>
+        <div class="options-box">
+            <div class="option">disired</div>
+            <div class="option">purchased</div>
+        </div>
+        <div class="addtocart-btn"><p>buy</p></div>
+    </div>
+    <main class="shop">
+        <section></section>
+    </main>
+    <main class="contact">
+        <section></section>
+    </main>
+    <main class="register">
+        <section></section>
+    </main>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/CSSRulePlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/Draggable.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/MotionPathPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/TextPlugin.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
     <script src="Assets/js/app.js"></script>
 </body>
+
 </html>
